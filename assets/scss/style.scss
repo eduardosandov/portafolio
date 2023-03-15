@@ -21,15 +21,12 @@ body {
     
 }
 
-.site-head {
-    
+.site-head {    
     max-width: 100%;    
     color: black;
     box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
     
-        nav {   
-            
-
+        nav {       
             .menu {
                 display: flex;
                 justify-content: space-around;                
@@ -39,10 +36,11 @@ body {
                 a:hover{
                     color: #01328d;
                 }
-                li a{
+                li a {
                     display: block;
                     padding: 15px 5px;
                     text-decoration: none;
+                    text-transform: uppercase;
                 }
             }
         }
@@ -53,9 +51,7 @@ main {
     display: flex;
     justify-content: center;
     max-width: 100%;
-    padding: 20px 0 0 0;
-    
-
+    padding: 20px 0 0 0;    
     .site-welcome {
         width: 80%;
         
@@ -64,11 +60,16 @@ main {
 
 
 
-footer {
+footer {    
     position: absolute;
     width: 100%;
     bottom: 0;
-    border: 2px solid #343434;
+    border: 2px solid #868686;
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 

@@ -35,6 +35,7 @@ html {
   display: block;
   padding: 15px 5px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 main {
@@ -51,7 +52,12 @@ footer {
   position: absolute;
   width: 100%;
   bottom: 0;
-  border: 2px solid #343434;
+  border: 2px solid #868686;
+}
+footer .footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* =============================================================
