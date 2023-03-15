@@ -3,21 +3,61 @@
   padding: 0;
 }
 
-html {
-    
+html {    
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+    color: #343434;
 }
 
 body {
     border: 2px solid red;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .site-head {
     border: 2px solid rgb(43, 255, 0);
-    max-width: 100%;
-    padding-bottom: 1.25rem;
-    padding-top: 1.25rem;
+    max-width: 100%;    
     color: black;
+    &__inner {
+        nav {   
+            border: 2px solid orange;
+            ul {
+                list-style: none;
+            }
+            .menu {
+                display: flex;
+                flex-wrap: wrap;                
+                justify-content: space-around;                
+                align-items: center;
+                a:hover{
+                    color: #01328d;
+                }
+                li a{
+                    display: block;
+                    padding: 10px 5px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    border: 2px solid rgb(128, 0, 0);
+
+    .site-welcome {
+        width: 80%;
+        border: 2px solid yellow;
+    }
 }
 
 
