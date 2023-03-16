@@ -9,74 +9,66 @@ h3,
 h4,
 p,
 a {
-    color: #343434;
+  color: #343434;
 }
 
-html{
-
-    max-height: 100vh;
+html {
+  max-height: 100vh;
 }
 
 body {
-    
 }
 
-.site-head {    
-    max-width: 100%;    
-    color: black;
-    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-    
-        nav {       
-            .menu {
-                display: flex;
-                justify-content: space-around;                
-                align-items: center;
-                flex-wrap: wrap;                
-                list-style: none;
-                a:hover{
-                    color: #01328d;
-                }
-                li a {
-                    display: block;
-                    padding: 15px 5px;
-                    text-decoration: none;
-                    text-transform: uppercase;
-                }
-            }
-        }
-    
+.site-head {
+  max-width: 100%;
+  color: black;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+
+  nav {
+    .menu {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      list-style: none;
+      a:hover {
+        color: #01328d;
+      }
+      li a {
+        display: block;
+        padding: 15px 5px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
 }
 
 main {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+
+  .site-welcome {
+    width: 80%;
+  }
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  border: 2px solid #868686;
+  .footer-container {
     display: flex;
     justify-content: center;
-    max-width: 100%;
-    
-    .site-welcome {
-        width: 80%;
-        
-    }
+    align-items: center;
+  }
 }
-
-
-
-footer {    
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    border: 2px solid #868686;
-    .footer-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
 
 /* =============================================================
 Media Querys
 ============================================================== */
-
 
 /* 
   ##Device = Desktops
@@ -84,64 +76,53 @@ Media Querys
 */
 
 @media (min-width: 1281px) {
-  
-    /* CSS */
-    
-  }
-  
-  /* 
+  /* CSS */
+}
+
+/* 
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
   */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    
-    nav,
-    .menu {
-        display: flex;
-        flex-direction: column;
-    }  
-    
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav,
+  .menu {
+    display: flex;
+    flex-direction: column;
   }
-  
-  /* 
+}
+
+/* 
     ##Device = Tablets, Ipads (landscape)
     ##Screen = B/w 768px to 1024px
   */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {    
-  
-  }
-  
-  /* 
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+}
+
+/* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
-    /* CSS */
-    
-  }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+}
