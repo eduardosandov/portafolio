@@ -48,9 +48,11 @@ main {
   display: flex;
   justify-content: center;
   max-width: 100%;
+  border: 1px solid red;
 
   .site-welcome {
     width: 80%;
+    border: 1px solid orange;
   }
 }
 
