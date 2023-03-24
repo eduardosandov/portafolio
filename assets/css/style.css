@@ -217,24 +217,73 @@ body {
 
 main {
   max-width: 100%;
-  border: 1px solid red;
+  border: 2px solid red;
 }
-main .position-relative {
+main .welcome {
   position: relative;
+  border: 2px solid rgb(0, 30, 255);
 }
-main .position-relative .container {
+main .welcome .container-welcome {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(255, 0, 212);
+}
+main .welcome .container-welcome .welcome-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .welcome .container-welcome .welcome-content .welcome-about .welcome-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .welcome .container-welcome .welcome-content .welcome-img {
+  padding: 20px 0;
+  width: 50%;
+}
+main .welcome .container-welcome .welcome-content .welcome-img img {
+  width: 100%;
+}
+main .container-tittle {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #26cbff;
+}
+main .about-me {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   margin-left: auto;
   margin-right: auto;
 }
-main .position-relative .container .welcome-content {
-  display: flex;
-  flex-wrap: wrap;
+main .my-skills {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
 }
-main .position-relative .container .welcome-content .welcome-btn {
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer .footer-content {
+  position: relative;
+  padding: 10px;
+  background-color: #110f1a;
+}
+footer .redes-sociales {
   display: flex;
+  justify-content: space-around;
   align-items: center;
+  color: white;
 }
 
 /* =============================================================

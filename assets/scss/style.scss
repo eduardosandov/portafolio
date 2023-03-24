@@ -229,31 +229,85 @@ body {
 
 main {
   max-width: 100%;
-  border: 1px solid red;
+  border: 2px solid red;
 
-  .position-relative {
-    position: relative;    
+  .welcome {
+    position: relative;   
+  border: 2px solid rgb(0, 30, 255);
+
   }
   
-  .position-relative .container {
+  .welcome .container-welcome {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     margin-left: auto;
     margin-right: auto;
-    .welcome-content{
+  border: 2px solid rgb(255, 0, 212);
+
+    .welcome-content {
       display: flex;
       flex-wrap: wrap;
-       .welcome-about{
+      margin-left: auto;
+      margin-right: auto;
+       .welcome-about {
 
+         .welcome-btn {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
       }
-       .welcome-btn{
-        display: flex;
-        align-items: center;
+      .welcome-img{
+        padding: 20px 0;
+        width: 50%;
+        img{
+          width: 100%;
+        }
       }
     }
   }
+
+  .container-tittle{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #26cbff;
+  }
+  .about-me{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .my-skills {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
 }
 
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  .footer-content{
+    position: relative;
+    padding: 10px;
+    background-color: #110f1a;
+  }
+
+  .redes-sociales{
+    display: flex;
+    justify-content: space-around;    
+    align-items: center;
+    color: white;
+
+  }
+}
 
 /* =============================================================
 Media Querys
