@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi portafolio Eduardo Sandoval</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/template.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap" rel="stylesheet">
@@ -16,7 +17,9 @@
     <header class="site-head">
         <nav>
             <ul class="menu">
-                <a href="">Sandoft</a>
+                <div class="logo-nav">
+                    <a href=""><img src="./assets/img/logo-sandoft.png" alt=""></a>
+                </div>
                 <li class="item"><a href="">Sobre Mi</a> </li>
                 <li class="item"><a href="">Proyectos</a> </li>
                 <li class="item"><a href="">Contacto</a></li>
@@ -28,11 +31,13 @@
             <div class="container-welcome">
                 <div class="welcome-content">
                     <div class="welcome-about">
-                        <h2>Eduardo Sandoval</h2>
-                        <p>Ingeniero en sistemas Computacionales apacionado por el desarrollo Web</p>
+                        <div class="about-description">
+                            <h2>Eduardo Sandoval</h2>
+                            <p>Ingeniero en sistemas Computacionales apacionado por el desarrollo Web</p>
+                        </div>
                         <div class="welcome-btn">
-                            <div class="btn"> <a href=""><span>Mas sobre mi</span></a> </div>
-                            <div class="btn"> <a href=""><span>Download CV</span></a> </div>
+                            <div class=""> <a class="btn btn-dark" href=""><span>Mas sobre mi</span></a> </div>
+                            <div class=""> <a class="btn btn-outline-primary" href=""><span>Download CV</span></a> </div>
                         </div>
                     </div>
                     <div class="welcome-img">
@@ -65,7 +70,7 @@
                         Mis habilidades
                     </h1>
                 </div>
-                <div class="my-skills">
+                <div class="languaje">
                     <ul>
                         <li>HTML5</li>
                         <li>css3</li>
