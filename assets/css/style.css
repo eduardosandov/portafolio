@@ -68,8 +68,7 @@ main .welcome .container-welcome {
   padding-right: 1.5rem;
   margin-left: auto;
   margin-right: auto;
-  height: 38rem;
-  border: 2px solid rgb(255, 0, 212);
+  height: 37rem;
 }
 main .welcome .container-welcome .welcome-content {
   display: flex;
@@ -111,32 +110,44 @@ main .container-tittle {
 main .my-info {
   position: relative;
 }
+main .my-info .container-myinfo {
+  padding: 10px 0;
+  background-color: rgb(241, 241, 241);
+}
+main .my-info .container-tittle h1 {
+  margin: 10px 0;
+  color: #110f1a;
+}
 main .about-me {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   margin-left: auto;
   margin-right: auto;
 }
+main .about-me p {
+  color: #110f1a;
+}
 main .my-skylls {
   position: relative;
+  padding: 10px 0;
 }
-main .languaje {
+main .my-skylls .container-tittle h1 {
+  margin: 10px 0;
+}
+main .my-skylls .languaje {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   margin-left: auto;
   margin-right: auto;
   color: white;
 }
-main .languaje ul {
+main .my-skylls .languaje ul {
   display: flex;
   justify-content: space-around;
+  margin: 20px 0;
 }
 
-footer {
-  width: 100%;
-}
 footer .footer-content {
-  padding: 10px;
   background-color: #110f1a;
 }
 footer .redes-sociales {
@@ -144,6 +155,9 @@ footer .redes-sociales {
   justify-content: space-around;
   align-items: center;
   color: white;
+  padding: 10px;
+  width: 100%;
+  height: 5rem;
 }
 
 /* =============================================================
