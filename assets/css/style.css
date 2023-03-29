@@ -159,6 +159,12 @@ footer .redes-sociales {
   width: 100%;
   height: 5rem;
 }
+footer .redes-sociales .social {
+  width: 20%;
+}
+footer .redes-sociales .social img {
+  width: 50%;
+}
 
 /* =============================================================
 Media Querys
